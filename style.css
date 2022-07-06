@@ -1,0 +1,190 @@
+header {
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    height: 1000px;
+    display: flex;
+}
+
+body {
+    background-color: black;
+}
+
+.topMenu {
+    list-style: none;
+    gap: 0.5rem;
+    display: flex;
+    height: 15vh;
+    width: 100em;
+    /* flex-direction: row; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu {
+    list-style: none;
+    gap: 5rem;
+    display: flex;
+    color: #fff;
+    font-size: 1.5em;
+    flex: 5;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotipo {
+    flex-basis: 30%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+.logotipo1 {
+    color: #FF5B50;
+}
+
+.conectCarteira {
+    display: flex;
+    flex: 5%;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.main1 {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+
+.text1 {
+    font-size: 3em;
+    list-style: none;
+    flex-basis: 30%;
+    border: blue;
+    font-family: Montserrat;
+    text-align: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.avatars {
+    list-style: none;
+    display: flex;
+    flex-basis: 25%;
+    flex-direction: column;
+    gap: 3em;
+    align-items: flex-start;
+}
+
+.imagensMain1 {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    position: relative;
+}
+
+.texto {
+    font-family: Montserrat;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    justify-content: center;
+}
+
+.gallery img {
+    border: 2px solid gray;
+}
+
+.main2Informacoes {
+    grid-area: main2Inform;
+    font-family: Montserrat;
+    font-size: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    gap: 50px;
+    color: #fff;
+}
+
+.main2text {
+    grid-area: main2text;
+    list-style: none;
+    display: flex;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    color: #fff;
+    width: 1100px;
+    gap: 1rem;
+}
+
+.main2banner {
+    grid-area: main2banner;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.main2 {
+    display: grid;
+    grid-template-columns: 20% 65%;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "main2Inform main2text"
+        "main2Inform main2banner "
+    ;
+    margin-left: 100px;
+}
+
+.main2TextColum {
+    margin: 0;
+    font-size: .6em;
+    color: gray
+}
+
+.main3 {
+    display: flex;
+    border-left: 200px;
+    border-right: 200px;
+}
+
+.main3 div {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    font-family: Montserrat;
+    font-size: 1.5em;
+    padding-right: 100px;
+}
+
+.astrounauta ul {
+    list-style: none;
+}
+
+.tituloMain3 {
+    font-size: 2.0rem;
+    font-weight: bold;
+    row-gap: 0.5em;
+    color: #fff;
+}
+
+.nomeAstrounauta {
+    color: gray;
+    font-size: 1.5rem;
+}
