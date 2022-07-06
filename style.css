@@ -15,7 +15,6 @@ body {
     display: flex;
     height: 15vh;
     width: 100em;
-    /* flex-direction: row; */
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -155,6 +154,17 @@ body {
     color: gray
 }
 
+.tituloPrincipalMain3 {
+    color: #fff;
+    font-size: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 100px;
+    width: 1000px;
+    position: relative;
+}
+
 .main3 {
     display: flex;
     border-left: 200px;
@@ -171,6 +181,7 @@ body {
     font-family: Montserrat;
     font-size: 1.5em;
     padding-right: 100px;
+    padding-left: 100px;
 }
 
 .astrounauta ul {
@@ -187,4 +198,63 @@ body {
 .nomeAstrounauta {
     color: gray;
     font-size: 1.5rem;
+}
+
+.main4 {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr 1px 1fr;
+    grid-template-rows: 100px 100px 100px 50px;
+    grid-template-areas:
+        "cabecalhoMain4 cabecalhoMain4 cabecalhoMain4 cabecalhoMain4 cabecalhoMain4"
+        "artista1Main4 . artista2Main4 . artista3Main4"
+        "artista4Main4 . artista5Main4 . artista6Main4"
+        "footerMain4 footerMain4 footerMain4 footerMain4 footerMain4"
+    ;
+    gap: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+}
+
+.tituloMain4 {
+    grid-area: cabecalhoMain4;
+    background-color: #FF5B50;
+    text-align: center;
+}
+
+.artista1Main4 {
+    grid-area: artista1Main4;
+    background-color: aqua;
+    color: black;
+    text-align: end;
+}
+
+.artista2Main4 {
+    grid-area: artista2Main4;
+    background-color: aquamarine;
+}
+
+.artista3Main4 {
+    grid-area: artista3Main4;
+    background-color: yellow;
+}
+
+.artista4Main4 {
+    grid-area: artista4Main4;
+    background-color: green;
+}
+
+.artista5Main4 {
+    grid-area: artista5Main4;
+    background-color: red;
+}
+
+.artista6Main4 {
+    grid-area: artista6Main4;
+    background-color: white;
+}
+
+.footerMain4 {
+    grid-area: footerMain4;
+    background-color: blue;
 }
