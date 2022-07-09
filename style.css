@@ -203,7 +203,7 @@ body {
 .main4 {
     display: grid;
     grid-template-columns: 1fr 1px 1fr 1px 1fr;
-    grid-template-rows: 100px 100px 100px 50px;
+    grid-template-rows: auto auto auto auto;
     grid-template-areas:
         "cabecalhoMain4 cabecalhoMain4 cabecalhoMain4 cabecalhoMain4 cabecalhoMain4"
         "artista1Main4 . artista2Main4 . artista3Main4"
@@ -218,20 +218,30 @@ body {
 
 .tituloMain4 {
     grid-area: cabecalhoMain4;
-    background-color: #FF5B50;
     text-align: center;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
 }
 
 .artista1Main4 {
     grid-area: artista1Main4;
-    background-color: aqua;
-    color: black;
-    text-align: end;
 }
 
 .artista2Main4 {
     grid-area: artista2Main4;
-    background-color: aquamarine;
+    background-color: #FF5B50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    font-size: 1.2rem;
+    gap: 2em;
+    line-height: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
 }
 
 .artista3Main4 {
@@ -254,7 +264,113 @@ body {
     background-color: white;
 }
 
+
+.artista1Main4,
+.artista3Main4,
+.artista4Main4,
+.artista5Main4,
+.artista6Main4 {
+    background-color: #252525;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 150px;
+    font-size: 1.2rem;
+    row-gap: .5em;
+    line-height: 30px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 50px;
+}
+
 .footerMain4 {
     grid-area: footerMain4;
-    background-color: blue;
+    text-align: center;
+    margin-top: 50px;
+    color: gray;
+    font-size: 1.5em;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #252525;
+    height: 709px;
+    margin-top: 50px;
+}
+
+.setaFooter {
+    background-color: #FF5B50;
+    padding: 20px;
+    height: 40px;
+    width: 40px;
+}
+
+.textFooter {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.text2Footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5em;
+    margin-top: 50px;
+    color: #5A5757;
+}
+
+table tr th {
+    color: #fff;
+}
+
+#tableFooter {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 50px; padding-right: 50px;
+}
+
+.emailFooter {
+    width: 402px;
+    height: 66px;
+}
+
+input {
+    width: 70%;
+    height: 50px;
+    font-size: 20px;
+}
+
+button {
+    width: 20%;
+    height: 55px;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.text2Footer div li {
+    font-size: 1.5em;
+    width: 400px;
+    list-style: none;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+hr {
+    color: gray;
+}
+
+.iconsFooter {
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-right: 150px;
+    margin-left: 150px;
+    font-size: 1.5em;
+    margin-top: 50px;
 }
