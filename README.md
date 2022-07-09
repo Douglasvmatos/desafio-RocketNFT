@@ -1,4 +1,4 @@
-# Rocket NFTs
+# Challenge Rocket NFTs
 > @rocketseat challenge for front-end beginners: Landing page layout development for Rocket NFTs.
 
 ![gif-desafioRocketNFT](https://user-images.githubusercontent.com/105434742/178093893-143f5b0e-1176-4bc3-93c7-2b0d84073d0f.gif)
